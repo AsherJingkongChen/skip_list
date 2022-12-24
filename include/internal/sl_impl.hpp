@@ -59,7 +59,7 @@ public:
     using level_type                  = std::size_t;
 
 private:
-    static inline level_type max_levels = 5; // make this a class member: = log(size)
+    static inline level_type max_levels = 30; // make this a class member: = log(size)
 
 public:
     using node_type = sl_node<T>;
